@@ -1,0 +1,43 @@
+::selection {
+    color: #fff;
+    background: #664AFF;
+}
+
+.material-symbols-outlined {
+ color: royalblue;
+ justify-content: center;
+ box-shadow: 5px 5px 5px  rgba(52, 77, 109, 0.4);
+ border: 2px solid royalblue;
+ border-radius: 50%;
+ margin: 5px;
+}
+.search-wrapper {
+    display: flex;
+   padding-bottom: 20px;
+   padding-top: 10px;
+}
+.btn {
+color: white;
+background-color: royalblue;
+border-color: royalblue;
+border-radius: 10px;
+cursor: pointer;
+box-shadow: 5px 5px 5px  rgba(52, 77, 109, 0.4);
+margin: 5px;
+}
+.btn:hover {
+    background-color: whitesmoke;
+    color: royalblue;
+    transition: 1s;
+}
+.search {
+    border: 2px solid royalblue;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px rgba(52, 77, 109, 0.4);
+    margin: 5px;
+}
+.search:hover, .search:focus {
+    border-color: rgb(92, 106, 150);
+    cursor: pointer;
+}
+

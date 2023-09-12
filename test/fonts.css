@@ -1,0 +1,48 @@
+@font-face {
+   font-family: "Hero New Light";
+   src: url("fonts/Hero New Light Italic.woff") format("woff"), url("fonts/Hero New Light Italic.eot") format("embedded-opentype"), url("fonts/Hero New Light Italic.otf") format("opentype");
+   font-weight: normal;
+   font-style: italic;
+}
+@font-face {
+   font-family: "Hero New Light";
+   src: url("fonts/Hero New Light.woff") format("woff"), url("fonts/Hero New Light.eot") format("embedded-opentype"), url("fonts/Hero New Light.otf") format("opentype");
+   font-weight: normal;
+   font-style: normal;
+}
+@font-face {
+   font-family: "Hero New Bold";
+   src: url("fonts/Hero New Bold Italic.woff") format("woff"), url("fonts/Hero New Bold Italic.eot") format("embedded-opentype"), url("fonts/Hero New Bold Italic.otf") format("opentype");
+   font-weight: bold;
+   font-style: italic;
+}
+@font-face {
+   font-family: "Hero New Bold";
+   src: url("fonts/Hero New Bold.woff") format("woff"), url("fonts/Hero New Bold.eot") format("embedded-opentype"), url("fonts/Hero New Bold.otf") format("opentype");
+   font-weight: bold;
+   font-style: normal;
+}
+@font-face {
+   font-family: "Oswald Regular";
+   src: url("fonts/Oswald Regular.woff") format("woff"), url("fonts/Oswald Regular.eot") format("embedded-opentype"), url("fonts/Oswald Regular.ttf") format("truetype"), url("fonts/Oswald Regular.svg") format("svg");
+   font-weight: normal;
+   font-style: normal;
+}
+@font-face {
+   font-family: "Oswald Regular";
+   src: url("fonts/Oswald-Regular.woff") format("woff"), url("fonts/Oswald-Regular.eot") format("embedded-opentype"), url("fonts/Oswald-Regular.ttf") format("truetype"), url("fonts/Oswald-Regular.svg") format("svg");
+   font-weight: normal;
+   font-style: normal;
+}
+@font-face {
+   font-family: "Hero New";
+   src: url("fonts/Hero New Regular Italic.woff") format("woff"), url("fonts/Hero New Regular Italic.eot") format("embedded-opentype"), url("fonts/Hero New Regular Italic.otf") format("opentype");
+   font-weight: normal;
+   font-style: italic;
+}
+@font-face {
+   font-family: "Hero New";
+   src: url("fonts/Hero New Regular.woff") format("woff"), url("fonts/Hero New Regular.eot") format("embedded-opentype"), url("fonts/Hero New Regular.otf") format("opentype");
+   font-weight: normal;
+   font-style: normal;
+}

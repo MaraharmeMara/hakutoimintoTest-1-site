@@ -451,26 +451,53 @@
       .tx-a {
         z-index: 10000000000;
         position: fixed;
-        left: 40vw;
-        top: 7vh;
+        right: 50vh;
+        top: 20px;
+        /* left: 40vw;
+        top: 7vh;*/
+      }
+      .btn:hover {
+        background-color: darkblue;
       }
     </style>
     <link rel="stylesheet" href="fonts.css?v=1690356284182" />
   </head>
   <body>
-    <div class="dropdown tx-a">
+    <div class="dropdown tx-a"
+    >
       <div class="search-wrapper">
         <label for="search"></label>
-        <span class="material-symbols-outlined"> search </span>
+        <span class="material-symbols-outlined"></span>
         <input
           class="search"
           id="search"
-          placeholder="Type in your place here..."
+          placeholder="Mihin mennään?"
+            style="background-color: beige;
+            width: 200px;
+            height: 40px;
+            border-radius: 10px;
+            border-color: #1E3587;
+            border-width: 3px;
+            font-family: Hero New;
+            font-weight: bold;
+            "
         />
 
-        <button class="btn">Search</button>
+        <button class="btn" 
+          style="background-color: #1E3587;
+          color: white;
+          width: 70px;
+          height: 40px;
+          transition: 5s linear;
+          font-family: Hero New;
+          font-weight: bold;
+          border-radius: 30px;
+          
+          "
+        >Etsi</button>
       </div>
-      <div class="dropdown-menu show result"></div>
+      <div class="dropdown-menu show result"
+      style="display: none;"></div>
     </div>
 
     <div id="preloadContainer" class="fill-viewport">

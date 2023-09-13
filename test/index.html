@@ -456,8 +456,38 @@
         /* left: 40vw;
         top: 7vh;*/
       }
+      .btn {
+        background-color: #1E3587;
+        color: white;
+        cursor: pointer;
+        width: 70px;
+        height: 40px;
+        font-family: Hero New;
+        font-weight: bold;
+      }
+      .search {
+        background-color: beige;
+        width: 200px;
+        height: 40px;
+        border-radius: 10px;
+        border-color: #1E3587;
+        border-width: 3px;
+        font-family: Hero New;
+        font-weight: bold;
+      }
+      .search:active {
+        border-color: #0c1637;
+        border-radius: 3px;
+      }
       .btn-primary:hover {
         background-color: #0c1637;
+      }
+      .dropdown-item:hover {
+        color: white;
+        background-color: #1E3587;
+      }
+      .show {
+        display: none;
       }
     </style>
     <link rel="stylesheet" href="fonts.css?v=1690356284182" />
@@ -472,31 +502,10 @@
           class="search"
           id="search"
           placeholder="Mihin mennään?"
-            style="background-color: beige;
-            width: 200px;
-            height: 40px;
-            border-radius: 10px;
-            border-color: #1E3587;
-            border-width: 3px;
-            font-family: Hero New;
-            font-weight: bold;
-            "
         />
-
-        <button class="btn btn-primary" 
-          style="background-color: #1E3587;
-          color: white;
-          width: 70px;
-          height: 40px;
-          transition: 5s linear;
-          font-family: Hero New;
-          font-weight: bold;
-          border-radius: 30px;
-          "
-        >Etsi</button>
+        <button class="btn btn-primary">Etsi</button>
       </div>
-      <div class="dropdown-menu show result"
-      style="display: none;"></div>
+      <div class="dropdown-menu show result"></div>
     </div>
 
     <div id="preloadContainer" class="fill-viewport">
@@ -577,6 +586,11 @@
         res.forEach((elem) => {
           resOl.innerHTML += `<a href="#" class="dropdown-item">${elem}</a>`;
         });
+        if (res.length > 0) {
+          resOl.classList.add("show");
+        } else {
+          resOl.classList.remove("show");
+        }
       });
     </script>
   </body>
